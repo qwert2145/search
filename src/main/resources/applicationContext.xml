@@ -20,8 +20,8 @@
 	<!-- 配置系统其它通用属性 -->
 	<bean id="simpleElastic" class="com.my.search.SimpleElastic"
 		  destroy-method="destroy" init-method="getClient">
-		<property name="clusterName" value="${elastic.clusterName}" />
-		<property name="nodeAdrees" value="${elastic.nodeAdrees}" />
+		<property name="clusterName" value="iasksearch" />
+		<property name="nodeAdrees" value="127.0.0.1" />
 	</bean>
 
 </beans>
