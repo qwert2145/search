@@ -15,12 +15,12 @@
     <repository>
       <id>nexus-releases</id>
       <name>Nexus Release Repository</name>
-      <url>http://nexus.womai.dev/content/repositories/releases/</url>
+      <url>http://domain/content/repositories/releases/</url>
     </repository>
     <repository>
       <id>nexus-snapshots</id>
       <name>Nexus Snapshot Repository</name>
-      <url>http://nexus.womai.dev/content/repositories/snapshots/</url>
+      <url>http://domain/content/repositories/snapshots/</url>
     </repository>
   </repositories>
 
